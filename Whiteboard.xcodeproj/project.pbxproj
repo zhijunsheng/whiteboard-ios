@@ -13,6 +13,7 @@
 		5B9EF99023B6433B00EC4382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9EF98F23B6433B00EC4382 /* Assets.xcassets */; };
 		5B9EF99323B6433B00EC4382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9EF99123B6433B00EC4382 /* LaunchScreen.storyboard */; };
 		5B9EF99E23B6433B00EC4382 /* WhiteboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9EF99D23B6433B00EC4382 /* WhiteboardTests.swift */; };
+		82B6EEEE23B6ECE400AFC915 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6EEED23B6ECE400AFC915 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5B9EF99923B6433B00EC4382 /* WhiteboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9EF99D23B6433B00EC4382 /* WhiteboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteboardTests.swift; sourceTree = "<group>"; };
 		5B9EF99F23B6433B00EC4382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B6EEED23B6ECE400AFC915 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5B9EF98823B6433800EC4382 /* AppDelegate.swift */,
 				5B9EF98A23B6433800EC4382 /* ViewController.swift */,
+				82B6EEED23B6ECE400AFC915 /* CanvasView.swift */,
 				5B9EF98C23B6433800EC4382 /* Main.storyboard */,
 				5B9EF98F23B6433B00EC4382 /* Assets.xcassets */,
 				5B9EF99123B6433B00EC4382 /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				5B9EF98B23B6433800EC4382 /* ViewController.swift in Sources */,
 				5B9EF98923B6433800EC4382 /* AppDelegate.swift in Sources */,
+				82B6EEEE23B6ECE400AFC915 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
